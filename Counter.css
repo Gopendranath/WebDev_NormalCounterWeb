@@ -1,0 +1,36 @@
+body{
+    background-color:rgba(22, 31, 58, 0.699) ;
+}
+#Counterdisplay{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1500%;
+    text-align: center;
+    display:block;
+    color: aliceblue;
+}
+#Buttons{
+    text-align: center;
+}
+.Bt{
+    background-color: #0d4dfc7a;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0px 5px;
+    transition: background-color 0.20s;
+    box-shadow: 0px 4px 8px rgba(22, 21, 21, 0.2);
+}
+.Bt:hover{
+    background-color: #0426867a;
+}
+.Bt1:active{
+    background-color: #bd0000;
+}
+.Bt2:active{
+    background-color: black;
+}
+.Bt3:active{
+    background-color: rgb(0, 184, 76);
+}
